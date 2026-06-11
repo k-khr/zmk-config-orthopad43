@@ -1,0 +1,11 @@
+file_format: "1"
+id: orthopad43
+name: orthopad43
+type: shield
+requires:
+  - seeeduino_xiao_ble
+features:
+  - keys
+siblings:
+  - orthopad43_left
+  - orthopad43_right

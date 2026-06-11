@@ -3,4 +3,5 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+    # Latest version when commit. Avoid using GitHub release tag due to security reason
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@c62da0e16646d10240ba29191bdbcb5611b3a1af

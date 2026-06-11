@@ -18,3 +18,10 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: seeeduino_xiao_ble
+    shield: orthopad43_left
+  - board: seeeduino_xiao_ble
+    shield: orthopad43_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
