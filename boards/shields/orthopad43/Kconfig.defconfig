@@ -1,8 +1,5 @@
 if SHIELD_ORTHOPAD43_LEFT
 
-config ZMK_KEYBOARD_NAME
-    default "orthopad43"
-
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
@@ -10,6 +7,9 @@ endif # SHIELD_ORTHOPAD43_LEFT
 
 
 if SHIELD_ORTHOPAD43_LEFT || SHIELD_ORTHOPAD43_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "orthopad43"
 
 config ZMK_SPLIT
    default y
