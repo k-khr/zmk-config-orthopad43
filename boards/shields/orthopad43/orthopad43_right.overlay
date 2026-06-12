@@ -1,4 +1,4 @@
-#include <dt-bindings/zmk/matrix_transform.h>
+#include "orthopad43.dtsi"
 
 &default_transform {
     col-offset = <7>;
