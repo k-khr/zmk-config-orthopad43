@@ -1,1 +1,1 @@
-#include "orthopad43.dtsi"
+#include <boards/shields/orthopad43/orthopad43.dtsi>
