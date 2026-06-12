@@ -1,5 +1,3 @@
-#include "orthopad43.dtsi"
-
 &default_transform {
     col-offset = <7>;
 };
